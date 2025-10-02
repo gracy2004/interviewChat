@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "engines": {
     "node": "20.x",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
-    "antd": "^5.27.4",
+    "antd": "^4.24.16",
     "mammoth": "^1.11.0",
     "openai": "^4.104.0",
     "pdf-parse": "^1.1.1",
@@ -28,10 +28,12 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
     "@types/node": "^20.4.2",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^5.0.4",
+    "babel-plugin-import": "^1.13.8",
     "gh-pages": "^6.3.0",
     "typescript": "^5.1.6",
     "vite": "^7.1.7"
