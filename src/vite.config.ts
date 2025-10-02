@@ -1,12 +1,18 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import commonjs from "@rollup/plugin-commonjs";
+import styleImport from "vite-plugin-style-import";
 
 export default defineConfig({
   plugins: [
     react(),
-    commonjs({
-      include: /node_modules/,
+    styleImport({
+      libs: [
+        {
+          libraryName: "antd",
+          esModule: true,
+          resolveStyle: (name) => `antd/es/${name}/style/index`,
+        },
+      ],
     }),
   ],
 });

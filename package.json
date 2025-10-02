@@ -35,7 +35,8 @@
     "@types/react-dom": "^18.2.7",
     "gh-pages": "^6.3.0",
     "typescript": "^5.1.6",
-    "vite": "^7.1.8"
+    "vite": "^7.1.8",
+    "vite-plugin-style-import": "^2.0.0"
   },
   "description": "",
   "main": "index.js",
