@@ -4,13 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "npx vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
-
+    "dev": "vite",
+    "build": "npx vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "engines": {
     "node": "20.x",
     "npm": "10.x"
