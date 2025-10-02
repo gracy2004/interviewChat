@@ -10,7 +10,7 @@ export default defineConfig({
         {
           libraryName: "antd",
           esModule: true,
-          resolveStyle: (name) => `antd/es/${name}/style/index`,
+          resolveStyle: (name) => `antd/es/${name}/style/index.js`,
         },
       ],
     }),
