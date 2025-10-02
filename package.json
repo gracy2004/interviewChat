@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "npx vite build",
     "preview": "vite preview",
+    "prepare": "chmod +x ./node_modules/.bin/vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
