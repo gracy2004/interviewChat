@@ -26,8 +26,8 @@
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
     "uuid": "^9.0.1",
-    "vite": "^7.1.8",               // <-- move Vite to dependencies
-    "@vitejs/plugin-react": "^5.0.4" // <-- move plugin-react to dependencies
+    "vite": "^7.1.8",
+    "@vitejs/plugin-react": "^5.0.4"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",
